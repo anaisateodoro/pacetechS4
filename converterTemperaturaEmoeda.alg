@@ -1,66 +1,65 @@
 algoritmo "semnome"
-// Função : Converter temperatura e moeda estrangeira
-// Autor : Anaísa Mayara Teodoro
+// FunÃ§Ã£o : Converter temperatura e moeda estrangeira
+// Autor : AnaÃ­sa Mayara Teodoro
 // Data : 04/03/2022
-// Seção de Declarações
+// SeÃ§Ã£o de DeclaraÃ§Ãµes
 var
 opcao_escolhida : caracter
-temperatura: inteiro
 temperaturaFahrenheit, temperaturaCelsius : real
 reais,dolar,cotacaoDiaDolar : real
 numeroRepeticao,repetir,repeticaoMoeda,repetirMoeda:inteiro
 
 
 inicio
-// Seção de Comandos
+// SeÃ§Ã£o de Comandos
 escreval("|==========================================|")
 escreval(" CONVERSOR DE TEMPERATURAS - ESCALAS:")
-escreval(" Celsius = °C / Fahrenheit = °F")
+escreval(" Celsius = Â°C / Fahrenheit = Â°F")
 escreval("|==========================================|")
 escreval(" CONVERSOR DE DINHEIRO:")
-escreval(" Dólar / Real")
+escreval(" DÃ³lar / Real")
 escreval("|==========================================|")
 escreval("")
 
-escreval("Qual conversão desejas usar? Selecione a opção do menu abaixo:")
+escreval("Qual conversÃ£o desejas usar? Selecione a opÃ§Ã£o do menu abaixo:")
 escreval("[ 1 ] Celsius para Fahrenheit")
 escreval("[ 2 ] Fahrenheit para Celsius")
-escreval("[ 3 ] Dólar para Real")
-escreval("[ 4 ] Dólar para Real")
+escreval("[ 3 ] DÃ³lar para Real")
+escreval("[ 4 ] DÃ³lar para Real")
 escreval("[ 5 ] Sair")
 escreval("")
 leia(opcao_escolhida)
 
 
    Se opcao_escolhida = "1" entao
-      Escreval ("A atual temperatura em Celsius é: ")
+      Escreval ("A atual temperatura em Celsius Ã©: ")
       leia (temperaturaCelsius)
       temperaturaFahrenheit <- (temperaturaCelsius * 1.8) + 32
-      Escreval (" A temperatura em Fahrenheit é: ", temperaturaFahrenheit)
+      Escreval (" A temperatura em Fahrenheit Ã©: ", temperaturaFahrenheit)
 
    Senao
       se opcao_escolhida= "2" entao
-         Escreval ("A atual temperatura em Fahreinheit é: ")
+         Escreval ("A atual temperatura em Fahreinheit Ã©: ")
          Leia (temperaturaFahrenheit)
          temperaturaCelsius <- (temperaturaFahrenheit - 32) / 1.8
-         Escreval ("A temperatura em Celcius é: ", temperaturaCelsius)
+         Escreval ("A temperatura em Celcius Ã©: ", temperaturaCelsius)
       Senao
 
          se opcao_escolhida = "3" entao
             Escreval ("Quantia em Reais: ")
             leia (reais)
-            Escreval ("Cotação atual do dólar: ")
+            Escreval ("CotaÃ§Ã£o atual do dÃ³lar: ")
             leia (cotacaoDiaDolar)
             dolar <- reais / cotacaoDiaDolar
-            Escreval ("Sua quantia atual em dólares é de R$:",  dolar)
+            Escreval ("Sua quantia atual em dÃ³lares Ã© de R$:",  dolar)
 
             se opcao_escolhida = "4" entao
-               Escreval ("Quantia em dólares: ")
+               Escreval ("Quantia em dÃ³lares: ")
                leia ( dolar)
-               Escreval ("Cotação atual do dólar: ")
+               Escreval ("CotaÃ§Ã£o atual do dÃ³lar: ")
                leia (cotacaoDiaDolar)
                reais <-  dolar * cotacaoDiaDolar
-               Escreval ("Sua quantidade em dólares é de $:", reais)
+               Escreval ("Sua quantidade em dÃ³lares Ã© de $:", reais)
 
             senao opcao_escolhida = "5" entao
                escreval("Fim do programa!")
