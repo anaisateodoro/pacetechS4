@@ -5,10 +5,10 @@
  * Categoria do Curso: Iniciação a programação | 2022  
 
 
-# EM CONSTRUÇÃO ALGORITIMO - POR MOTIVO DE PROBLEMAS DE SAÚDE, AINDA NÃO FINALIZEI O MESMO!
+# EM CONSTRUÇÃO ALGORITIMO - POR MOTIVO DE PROBLEMAS DE SAÚDE, AINDA NÃO FINALIZEI COMO GOSTARIA!
 
 ### Eu sou, a Anaísa 😃 (Eterna aprendiz!)
 - [Twitter](https://twitter.com/AnaisaMayara)
 - [Github](https://github.com/anaisateodoro)
-- [Email](anaisateodoro@hotmail.com)
+- [Email](anaisateodoro@gmail.com)
 
